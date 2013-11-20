@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LLJS editor</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+  </head>
+  <body>
+    <div class="instructions">
+      Press "s" to toggle code editor
+    </div>
+
+    <div class="editor hide">
+      <div class="error">
+      </div>
+
+      <section class="clearfix input">
+        <div class="col-sm-6 code">
+          <textarea></textarea>
+        </div>
+        <div class="col-sm-6">
+          <pre class="output"></pre>
+        </div>
+      </section>
+
+      <section class="col-sm-12">
+        <button class="btn compile">Compile & Run</button>
+      </section>
+    </div>
+
+    <canvas id="game"></canvas>
+
+    <script src="lljs.js"></script>
+    <script src="app.js"></script>
+
+    <script src="gl-matrix.js"></script>
+    <script src="gl-renderer.js"></script>
+    <script src="driver.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>

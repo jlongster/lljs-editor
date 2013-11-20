@@ -1,0 +1,88 @@
+
+html, body {
+    height: 100%
+}
+
+section {
+    overflow: hidden;
+    margin: 2em;
+}
+
+.code {
+}
+
+.col-sm-12 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.editor {
+    height: 100%;
+}
+
+section.input {
+    height: 80%;
+}
+
+section.input div {
+    height: 100%;
+}
+
+.code textarea,
+.output {
+    height: 100%;
+    border: 1px solid #d0d0d0;
+    padding: 1em;
+    font-family: monaco, monospace, Courier New;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.code textarea {
+    width: 100%;
+}
+
+pre.output {
+    overflow: auto;
+    font-size: 1em;
+    border-radius: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.error {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1em;
+    background-color: rgba(0, 0, 0, .5);
+    color: red;
+    padding: .5em;
+    border: 1px solid #d0d0d0;    
+}
+
+.instructions {
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid #d0d0d0;    
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    line-height: 1em;
+    color: white;
+    padding: 1em;
+}
