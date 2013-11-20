@@ -52,6 +52,6 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-ajaxGet('/render.ljs', function(text) {
+ajaxGet('render.ljs', function(text) {
     qs('.code textarea').value = text;
 });
